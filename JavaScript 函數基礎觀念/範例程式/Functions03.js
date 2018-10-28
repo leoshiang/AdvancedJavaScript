@@ -1,4 +1,4 @@
-function add(a ,b) {
+function add(a, b) {
     arguments[1] = 10;
     return arguments[0] + b;
 }

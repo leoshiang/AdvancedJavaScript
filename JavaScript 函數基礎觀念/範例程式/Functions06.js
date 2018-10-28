@@ -10,8 +10,7 @@ var result = callFunction(add10, 10);
 console.log(result);
 
 function greeting(name) {
-    return "Hello, " + name;    
+	return "Hello, " + name; 
 }
-
-var message = callFunction(greeting, "Leo Shiang");
+var message = callFunction(greeting, "Leo Shiang");
 console.log(message);
